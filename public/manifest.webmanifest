@@ -1,0 +1,10 @@
+{
+  "name": "REINCARNUM — Six Lives",
+  "short_name": "REINCARNUM",
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#030806",
+  "theme_color": "#06110e",
+  "orientation": "landscape",
+  "icons": [{"src":"/icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
