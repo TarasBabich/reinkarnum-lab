@@ -1,0 +1,27 @@
+{
+  "name": "reincarnum-personal-ascension",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build:web": "next build",
+    "cap:sync": "npx cap sync android",
+    "android": "npm run build:web && npm run cap:sync",
+    "apk:debug": "npm run android && cd android && ./gradlew assembleDebug",
+    "apk:release": "npm run android && cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "next": "15.5.3",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "typescript": "5.8.3"
+  }
+}
